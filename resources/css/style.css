@@ -95,6 +95,55 @@ h1 {
     border-bottom: 2px solid #e67e22;
 }
 
+.sticky{
+    /*Posição FIXA*/
+    position: fixed;
+    /*Grudado no topo*/
+    top:0;
+    /*Grudado na esquerda*/
+    left:0;
+    /*Ocupando largura total do VH*/
+    width:100%;
+    /*Um pouquinho de transparência*/
+    background-color: rgba(20, 18, 18, 0.95);
+    z-index: 4;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+    padding: 16px 0;
+}
+
+.sticky .main-nav {
+    margin-top: 18px; /*colocar um espaçamento acima da lista para baixar ela*/
+}
+
+.sticky .logo {
+    height: 50px;
+    width: auto;
+    float: left;
+    margin: 5px 0;
+}
+
+.mobile-nav-icon{
+    float:right;
+    margin-top: 30px;
+    /*altera o cursor do mouse*/
+    cursor:pointer; 
+
+    display:none;
+  }
+
+.mobile-nav-icon i{
+font-size: 200%;
+color: #fff;
+}
+
+.active{
+
+    opacity: 1 !important;
+}
+
 .section-origens {
     padding: 80px 0;
     background-color: #161515;
@@ -110,7 +159,11 @@ h2 {
 }
 
 #membros_fundadores {
-    padding-top: 40px;
+    padding-top: 60px;
+}
+
+#galeria {
+    padding-top: 60px;
 }
 
 h2:after {

@@ -17,15 +17,22 @@
 </head>
 
 <body>
-    <header>
-        <nav>
+    <header id="incio">
+        <nav class="sticky">
             <div class="row">
-                <img src="resources/img/santa_trindade.png" alt="saúde no prato logo" class="logo">
+                <a href="#incio">
+                    <img src="resources/img/santa_trindade.png" alt="saúde no prato logo" class="logo">
+                </a>
+                <div class="burguer">
+                    <a id="hamburguer" class="mobile-nav-icon js--nav-icon"><ion-icon name="menu"
+                            class="ion-navicon-round"></ion-icon></a>
+                </div>
                 <ul class="main-nav">
                     <li><a href="#origem">Origem da Liga</a></li>
-                    <li><a href="#membros_fundadores">Batman e resto</a></li>
+                    <li><a href="#membros_fundadores">Fundadores</a></li>
                     <li><a href="#galeria">Galeria</a></li>
                 </ul>
+
             </div>
         </nav>
         <div class="hero-text-box">
@@ -143,9 +150,11 @@
         </div>
         <div class="row">
             <p>Copyright &copy; 2023 - JL Origins. Todos os direitos reservados.</p>
-       </div>
+        </div>
     </div>
 </footer>
 
-</html>
 <script src="https://unpkg.com/ionicons@4.2.2/dist/ionicons.js"></script>
+<script src="script.js"></script>
+
+</html>
