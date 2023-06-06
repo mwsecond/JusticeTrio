@@ -5,19 +5,19 @@
 }
 
 html {
-    background-color: #fff; /*Define a cor do fundo*/
+    background-color: #fff; 
     color: #555;
-    font-family: 'Lato', 'Arial', sans-serif; /*a terceira opção é qualquer fonte daquela família, note que o nome da família não esta entre aspas.*/
-    font-weight: 300; /*de acordo com a fonte que importamos*/
+    font-family: 'Lato', 'Arial', sans-serif; 
+    font-weight: 300; 
     font-size: 20px;
-    text-rendering: optimizeLegibility; /*otimiza a renderização da fonte para letura, tendo uma melhor qualidade*/
+    text-rendering: optimizeLegibility; 
     overflow-x: hidden;
 }
 
 .row {
-    max-width: 1140px; /*Define o tamanho máximo da linha*/
-    margin: 0 auto 0 auto; /*Define que o container vai ficar centralizado*/
-    /*margin: 0 auto; maneira alternativa para a linha de cima*/
+    max-width: 1140px; 
+    margin: 0 auto 0 auto; 
+    
  }
  header {
     background-image: url(img/thebigthree_2.webp);
@@ -35,7 +35,7 @@ h1 {
     margin-top: 0;
     margin-bottom: 20px;
     color: #a09f6b;
-    font-size: 200%; /*o tamanho de fonte padrão está definido na regra de css do elemento html como 20px*/
+    font-size: 200%; 
     text-transform: uppercase;
     word-spacing: 4px;
     letter-spacing: 1px;
@@ -44,7 +44,7 @@ h1 {
 
 .hero-text-box {
     position: absolute;
-    width: 1000px; /*verificar se esse valor é adequado para seu monitor*/
+    width: 1000px; 
     top: 70%;
     left: 45%;
     transform: translate(-50%, -50%);
@@ -54,19 +54,19 @@ h1 {
     height: 100px;
     width: auto;
     float: left;
-    margin-top: 10px; /*colocar um espaçamento acima da logo para baixar ela*/
+    margin-top: 10px; 
     margin-left: -30px;
 }
 
 .main-nav {
     float: right;
-    list-style: none; /*Se livra dos bullets - bolinhas pretas - marcadores*/
-    margin-top: 50px; /*colocar um espaçamento acima da lista para baixar ela*/
+    list-style: none; 
+    margin-top: 50px; 
 }
 
 .main-nav li {
     display: inline-block;
-    margin-left: 40px; /*espaçamento entre os items da lista*/
+    margin-left: 40px; 
 }
 
 .main-nav li a {
@@ -96,15 +96,10 @@ h1 {
 }
 
 .sticky{
-    /*Posição FIXA*/
     position: fixed;
-    /*Grudado no topo*/
     top:0;
-    /*Grudado na esquerda*/
     left:0;
-    /*Ocupando largura total do VH*/
     width:100%;
-    /*Um pouquinho de transparência*/
     background-color: rgba(20, 18, 18, 0.95);
     z-index: 4;
 }
@@ -115,7 +110,7 @@ h1 {
 }
 
 .sticky .main-nav {
-    margin-top: 18px; /*colocar um espaçamento acima da lista para baixar ela*/
+    margin-top: 18px; 
 }
 
 .sticky .logo {
@@ -128,9 +123,7 @@ h1 {
 .mobile-nav-icon{
     float:right;
     margin-top: 30px;
-    /*altera o cursor do mouse*/
     cursor:pointer; 
-
     display:none;
   }
 
@@ -152,7 +145,7 @@ color: #fff;
 h2 {
     font-size: 180%;
     word-spacing: 2px;
-    text-align: center; /*Centralizando o texto*/
+    text-align: center;
     margin-bottom: 30px;
     letter-spacing: 1px;
     color: #fff;
@@ -170,9 +163,9 @@ h2:after {
     display: block;
     height: 2px;
     background-color: #d3d024;
-    content: " "; /*Conteúdo do item*/
-    width: 100px; /*Comprimento do item*/
-    margin: 0 auto; /*Centralizar*/
+    content: " "; 
+    width: 100px; 
+    margin: 0 auto; 
     margin-top: 30px;
 }
 
@@ -183,8 +176,8 @@ h3 {
 
 .long-copy {
     line-height:145%;
-    width: 70%; /*ocupa 70%, sobra 30%*/
-    margin-left: 15%; /*15% para cada lado*/
+    width: 70%; 
+    margin-left: 15%; 
 }
 
 .batman {
@@ -207,18 +200,18 @@ p {
 }
 
 .box {
-    padding: 1%; /*dá um pequeno espaçamento entre o conteúdo e o container.*/
+    padding: 1%; 
 }
 
 .images-showcase {
-    list-style: none; /*Retira marcadores*/
-    width: 100%; /*a lista agora ocupa toda largura da tela*/
+    list-style: none; 
+    width: 100%; 
 }
 
 .images-showcase li{
-    display: block; /*permite outros elementos ao lado*/
-    float: left; /*Faz com que os elementos sejam colocados lado a lado*/
-    width: 25%; /*cada item da lista terá 25% de largura em relação a tela... 100/4*/
+    display: block; 
+    float: left; 
+    width: 25%; 
 }
 
 .photo {
@@ -230,7 +223,7 @@ p {
 
 .photo img {
     width: 100%;
-    height: auto; /*para não desfigurar a imagem*/
+    height: auto; 
     transform: scale(1.15);
     transition: transform 0.5s, opacity 0.5s;
 }
@@ -242,7 +235,7 @@ p {
 
 .photo img:hover {
     opacity:1;
-    transform: scale(1.03); /*escala da imagem com valor padrão*/
+    transform: scale(1.03); 
 }
 
 footer {
@@ -322,8 +315,8 @@ footer p {
 }
 
 ion-icon {
-    font-size: 350%; /*Tamanho do ícone*/
+    font-size: 350%; 
     display: block;
-    color: #a09f6b; /*cor da fonte = cor do ícone*/
-    margin-bottom: 10px; /*espaço entre o ícone e o título do feature*/
+    color: #a09f6b; 
+    margin-bottom: 10px; 
 }
