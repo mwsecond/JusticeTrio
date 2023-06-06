@@ -54,23 +54,27 @@
     } /*Define um novo valor de espaçamento top e bottom entre as seções para esse tamanho de tela*/
     
     .logo {
-        height: 40%;
-        width: 40%;
+        height: 60%;
+        width: 60%;
         float: left;
         margin-top: 30px; /*colocar um espaçamento acima da logo para baixar ela*/
-        margin-left: 20px;
+        margin-left: 20%;
     }
     
     .main-nav {
         width: 60%;
         float: right;
         list-style: none; /*Se livra dos bullets - bolinhas pretas - marcadores*/
-        margin-top: 50px; /*colocar um espaçamento acima da lista para baixar ela*/
+        margin-top: 20px; /*colocar um espaçamento acima da lista para baixar ela*/
     }
     
     .main-nav li {
-        display: inline-block;
-        margin-left: 20px; /*espaçamento entre os items da lista*/
+        display: block;
+        margin-left: -10px; /*espaçamento entre os items da lista*/
         padding-top: 20px;
+    }
+
+    .hero-text-box {
+        margin-top:  50px;
     }
 }
