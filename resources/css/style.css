@@ -45,67 +45,6 @@ h1 {
     transform: translate(-50%, -50%);
 }
 
-.btn{
-    display: inline-block;
-    padding: 10px 30px;
-    font-weight: 300;
-    text-decoration: none;
-    border-radius: 200px;
-    color: #fff;
-}
-
-.btn-full{
-    background-color: #e67e22;
-    border: 1px solid #e67e22;
-    color: #fff;
-}
-
-.btn-ghost {
-    border: 1px solid #e67e22;
-    color: #e67e22;
-}
-
-.btn:link,
-.btn:visited {
-    display: inline-block;
-    padding: 10px 30px;
-    font-weight: 300;
-    text-decoration: none;
-    border-radius: 200px;
-    color: #fff;
-    transition: background-color 0.2s, border 0.2s, color 0.2s;
-}
-
-.btn-full:link,
-.btn-full:visited  {
-    background-color: #e67e22;
-    border: 1px solid #e67e22;
-    color: #fff;
-    margin-right: 15px;
-}
-
-.btn-ghost:link,
-.btn-ghost:visited  {
-    border: 1px solid #e67e22;
-    color: #e67e22;
-}
-
-.btn:hover,
-.btn:active {
-    background-color: #cf6d17;
-}
-
-.btn-full:hover,
-.btn-full:active {
-    border: 1px solid #cf6d17;
-}
-
-.btn-ghost:hover,
-.btn-ghost:active {
-    border: 1px solid #cf6d17;
-    color: #fff;
-}
-
 .logo {
     height: 100px;
     width: auto;
@@ -149,4 +88,62 @@ h1 {
 .main-nav li a:hover,
 .main-nav li a:active {
     border-bottom: 2px solid #e67e22;
+}
+
+section {
+    padding: 80px 0;
+    background-color: #161515;
+}
+
+h2 {
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center; /*Centralizando o texto*/
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #d3d024;
+    content: " "; /*Conteúdo do item*/
+    width: 100px; /*Comprimento do item*/
+    margin: 0 auto; /*Centralizar*/
+    margin-top: 30px;
+}
+
+h3 {
+    font-size: 110%;
+    margin-bottom: 15px;
+}
+
+.long-copy {
+    line-height:145%;
+    width: 70%; /*ocupa 70%, sobra 30%*/
+    margin-left: 15%; /*15% para cada lado*/
+}
+
+.batman {
+    color: black;
+    text-align: center;
+}
+
+.superman {
+    color: rgb(48, 48, 185);
+    text-align: center;
+}
+
+.mulher_maravilha {
+    color: rgb(170, 40, 40);
+    text-align: center;
+}
+
+p {
+    color: white;
+}
+
+.box {
+    padding: 1%; /*dá um pequeno espaçamento entre o conteúdo e o container.*/
 }
