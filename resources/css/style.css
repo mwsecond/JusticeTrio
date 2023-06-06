@@ -90,7 +90,7 @@ h1 {
     border-bottom: 2px solid #e67e22;
 }
 
-section {
+.section-origens {
     padding: 80px 0;
     background-color: #161515;
 }
@@ -146,4 +146,38 @@ p {
 
 .box {
     padding: 1%; /*dá um pequeno espaçamento entre o conteúdo e o container.*/
+}
+
+.images-showcase {
+    list-style: none; /*Retira marcadores*/
+    width: 100%; /*a lista agora ocupa toda largura da tela*/
+}
+
+.images-showcase li{
+    display: block; /*permite outros elementos ao lado*/
+    float: left; /*Faz com que os elementos sejam colocados lado a lado*/
+    width: 25%; /*cada item da lista terá 25% de largura em relação a tela... 100/4*/
+}
+
+.photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.photo img {
+    width: 100%;
+    height: auto; /*para não desfigurar a imagem*/
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.section-photos {
+    padding: 0;
+}
+
+.photo img:hover {
+    opacity:1;
+    transform: scale(1.03); /*escala da imagem com valor padrão*/
 }
